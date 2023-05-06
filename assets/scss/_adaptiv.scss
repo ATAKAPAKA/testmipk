@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .header {
+        .imgCont {
+            display: none;
+        }
+
+        .content {
+            .titleText {
+                max-width: 100%;
+            }
+
+            .appBlock {
+                justify-content: center;
+            }
+        }
+    }
+}

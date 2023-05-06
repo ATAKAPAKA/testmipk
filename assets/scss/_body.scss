@@ -1,0 +1,43 @@
+.body {
+    background-color: #E8F0FB;
+}
+
+.profList {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .pListItem {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 1 1 auto;
+        align-items: center;
+
+        .icon {
+            background: #2962A4;
+            box-shadow: 0px 3px 3px #A0B5CE;
+            border-radius: 10px;
+            width: 70px;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            display: flex;
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 18px;
+            max-width: min-content;
+            text-align: center;
+        }
+    }
+}

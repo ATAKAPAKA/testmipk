@@ -1,0 +1,22 @@
+
+
+.footer {
+    z-index: 1;
+    position: relative;
+
+    &::after {
+        @extend %before_after;
+        width: calc(233px - 87px);
+        height: 252px;
+        background-image: url("/assets/images/Spot_footer\ \(2\).svg");
+        left: 0;
+    }
+
+    &::before {
+        @extend %before_after;
+        background-image: url("/assets/images/Spot_footer\ \(1\).svg");
+        width: 401.23px;
+        height: 262.04px;
+        left: 716px;
+    }
+}
